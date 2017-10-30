@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="ticket system organization test" max_length="40" name="x_58872_needit_ticket_system_organization_test" type="collection">
+        <element attributes="import_attribute_name=Completed Date" label="Completed Date" max_length="40" name="u_completed_date" type="glide_date"/>
+        <element attributes="import_attribute_name=Customer Org,edge_encryption_enabled=true" label="Customer Org" max_length="40" name="u_customer_org" type="string"/>
+        <element attributes="import_attribute_name=Due Date" label="Due Date" max_length="40" name="u_due_date" type="glide_date"/>
+        <element attributes="import_attribute_name=ID,edge_encryption_enabled=true" label="ID" max_length="40" name="u_id" type="string"/>
+        <element attributes="import_attribute_name=IM/PM" label="IM/PM" max_length="40" name="u_im_pm" type="integer"/>
+        <element attributes="import_attribute_name=Last Update,edge_encryption_enabled=true" label="Last Update" max_length="40" name="u_last_update" type="string"/>
+        <element attributes="import_attribute_name=POC,edge_encryption_enabled=true" label="POC" max_length="40" name="u_poc" type="string"/>
+        <element attributes="import_attribute_name=Project Back-Up,edge_encryption_enabled=true" label="Project Back-Up" max_length="40" name="u_project_back_up" type="string"/>
+        <element attributes="import_attribute_name=Project Description,edge_encryption_enabled=true" label="Project Description" max_length="40" name="u_project_description" type="string"/>
+        <element attributes="import_attribute_name=Project Key,edge_encryption_enabled=true" label="Project Key" max_length="40" name="u_project_key" type="string"/>
+        <element attributes="import_attribute_name=Project Lead,edge_encryption_enabled=true" label="Project Lead" max_length="40" name="u_project_lead" type="string"/>
+        <element attributes="import_attribute_name=Project Name,edge_encryption_enabled=true" label="Project Name" max_length="40" name="u_project_name" type="string"/>
+        <element attributes="import_attribute_name=Project Status,edge_encryption_enabled=true" label="Project Status" max_length="40" name="u_project_status" type="string"/>
+        <element attributes="import_attribute_name=Project Type,edge_encryption_enabled=true" label="Project Type" max_length="40" name="u_project_type" type="string"/>
+        <element attributes="import_attribute_name=RFI #" label="RFI #" max_length="40" name="u_rfi__" type="integer"/>
+        <element attributes="import_attribute_name=Start Date" label="Start Date" max_length="40" name="u_start_date" type="glide_date"/>
+    </element>
+</database>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="test table 2" max_length="40" name="x_58872_needit_test_table_2" type="collection">
+        <element label="test date 1" max_length="10" name="test_date_1" type="glide_date"/>
+        <element label="Number" mandatory="true" max_length="40" name="u_age" type="integer"/>
+        <element label="Created" mandatory="true" max_length="40" name="u_created" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="2" label="Priority" mandatory="true" max_length="40" name="u_priority" type="string">
+            <choice>
+                <element label="1 - Critical" sequence="0" value="1"/>
+                <element label="2 - Low" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Short description" max_length="40" name="u_short_description" type="string"/>
+    </element>
+</database>
